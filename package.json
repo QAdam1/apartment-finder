@@ -1,7 +1,23 @@
 {
   "devDependencies": {
     "@playwright/test": "^1.49.1",
-    "@types/node": "^22.10.7"
+    "@types/imapflow": "^1.0.19",
+    "@types/mailparser": "^3.4.5",
+    "@types/node": "^22.10.7",
+    "@types/nodemailer": "^6.4.17"
   },
-  "scripts": {}
+  "scripts": {
+    "codegen": "xvfb-run npx playwright codegen"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "imapflow": "^1.0.177",
+    "mailparser": "^3.7.2",
+    "node-imap": "^0.9.6",
+    "nodemailer": "^6.9.16",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.3"
+  },
+  "type": "module"
 }
