@@ -18,6 +18,12 @@ sudo apt-get update && sudo apt-get install -y \
     libx264-155
 ```
 
+#### possibly cannow run:
+```
+npm init playwright@latest
+```
+and skip the next steps
+
 2. then
 ```
 npm install @playwright/test
